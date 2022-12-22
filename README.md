@@ -25,7 +25,7 @@ Assuming the toolchain is already installed, copy **flipper_random** directory t
 
 Plug your **Flipper Zero** and build the program :
 ```
-./fbt DEBUG=no LIB_DEBUG=no COMPACT=yes launch_app APPSRC=applications_user/flipper_dice
+./fbt DEBUG=no LIB_DEBUG=no COMPACT=yes launch_app APPSRC=applications_user/flipper_random
 ```
 
 The program will automatically be launched after compilation :
