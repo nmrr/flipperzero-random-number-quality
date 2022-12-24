@@ -38,6 +38,8 @@ If you don't want to build the program, just simply copy **flipper_random.fap** 
 
 ## Analysis with dieharder
 
+### With 256MB of data
+
 **dieharder** is a testing and benchmarking tool for random number generators
 
 Copy **/random.dat** file on your computer and launch the following command :
@@ -172,7 +174,7 @@ dieharder -a -g 201 -f random.dat
 
 2 tests have failed and 6 tests are marked as weak
 
-The same test has been done with **256MB** of **/dev/urandom** data :
+The same test has been done with **256MB** of **/dev/urandom** data from a **Linux** computer :
 
 <details>
   <summary>Click here to view results</summary>
@@ -300,7 +302,9 @@ The same test has been done with **256MB** of **/dev/urandom** data :
 
 Only 1 test has failed and 6 tests are marked as weak
 
-With a larger dataset (4G) :
+### With 4GB of data
+
+These tests have been released with a larger dataset : 4GB
 
 **Flipper Zero :**
 
@@ -426,8 +430,9 @@ With a larger dataset (4G) :
    Preparing to run test 209.  ntuple = 0
            dab_monobit2|  12|  65000000|       1|0.93595240|  PASSED
    ```
-
 </details>
+
+3 tests are marked as weak
 
 **/dev/urandom :**
 
@@ -555,5 +560,6 @@ With a larger dataset (4G) :
    ```
 </details>
 
+Only 1 test is marked as weak
 
-In conclusion **Flipper Zero** hardware random number generator quality is comparable to **/dev/urandom** on a **Linux** computer.
+In conclusion **Flipper Zero** hardware random number generator quality is comparable to **/dev/urandom**
