@@ -304,7 +304,7 @@ Only 1 test has failed and 6 tests are marked as weak
 
 ### With 4GB of data
 
-These tests have been released with a larger dataset : 4GB
+These tests have been done with a larger dataset : 4GB
 
 **Flipper Zero :**
 
